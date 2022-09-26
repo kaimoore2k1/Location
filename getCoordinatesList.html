@@ -1,0 +1,66 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>ArcGIS JavaScript Tutorials: Create a Starter App</title>
+
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://js.arcgis.com/4.15/esri/themes/light/main.css">
+  <script src="https://js.arcgis.com/4.15/"></script>
+  
+  <script>  
+	var map;
+    const coordinatesList = [];
+    require([
+      "esri/Map",
+      "esri/views/MapView",
+    ], function(Map, MapView) {
+
+		map = new Map({
+		basemap: "topo-vector"
+		});
+
+		var view = new MapView({
+		container: "viewDiv",
+		map: map,
+		center: [105.1366886, 9.7924769],
+		zoom: 50
+		});
+	   
+		view.popup.autoOpenEnabled = false;  // Disable the default popup behavior
+
+		view.on("click", function(event) { // Listen for the click event
+		  view.hitTest(event).then(function (hitTestResults){ // Search for features where the user clicked
+			if(hitTestResults.results) {
+              coordinatesList.push([event.mapPoint.longitude, event.mapPoint.latitude]);
+              console.log(coordinatesList);
+			}
+		  })
+		});
+
+        const handlePress = (e) => {
+            switch (e.key) {
+                case 'z':
+                    coordinatesList.pop();
+                    console.log(coordinatesList);
+                    break;
+                case 'Enter':
+                    console.log(JSON.stringify(coordinatesList));
+                    coordinatesList.length = 0;
+                    break;
+                default:
+                    break;
+            }
+        }
+
+        const viewDiv = document.querySelector("html");
+        viewDiv.addEventListener("keypress", handlePress);
+
+        
+    });
+  </script>
+</head>
+<body>
+  <div id="viewDiv"></div>
+</body>
+</html>
