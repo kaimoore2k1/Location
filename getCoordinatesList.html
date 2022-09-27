@@ -45,7 +45,8 @@
                     console.log(coordinatesList);
                     break;
                 case 'Enter':
-                    console.log(JSON.stringify(coordinatesList));
+                    console.log('normal',JSON.stringify(coordinatesList));
+                    console.log('reverse', JSON.stringify(coordinatesList.reverse()));
                     coordinatesList.length = 0;
                     break;
                 default:
