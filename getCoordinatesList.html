@@ -11,7 +11,7 @@
 
   <script>
     var map;
-    const coordinatesList = [];
+    const coordinatesList = []; 
     require([
       "esri/Map",
       "esri/views/MapView",
@@ -80,7 +80,6 @@
             break;
         }
       }
-
       const viewDiv = document.querySelector("html");
       viewDiv.addEventListener("keypress", handlePress);
 
