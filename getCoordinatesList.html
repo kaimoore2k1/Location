@@ -11,13 +11,14 @@
 
   <script>
     var map;
-    const coordinatesList = []; 
+    const coordinatesList = [];
     require([
       "esri/Map",
       "esri/views/MapView",
       "esri/Graphic",
       "esri/layers/GraphicsLayer",
-    ], function (Map, MapView, Graphic, GraphicsLayer) {
+      "esri/widgets/Zoom"
+    ], function (Map, MapView, Graphic, GraphicsLayer, Zoom) {
 
       map = new Map({
         basemap: "topo-vector"
@@ -28,6 +29,10 @@
         map: map,
         center: [105.1366886, 9.7924769],
         zoom: 17
+      });
+
+      let zoom = new Zoom({
+        view: view
       });
 
       const graphicsLayer = new GraphicsLayer();
@@ -83,6 +88,15 @@
       const viewDiv = document.querySelector("html");
       viewDiv.addEventListener("keypress", handlePress);
 
+      window.addEventListener('keypress', (e) => {
+        if (e.key == 'x') {
+          zoom.zoomIn();
+        }
+
+        if (e.key == 'c'){
+          zoom.zoomOut();
+        }
+      })
 
     });
   </script>
