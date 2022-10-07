@@ -1394,7 +1394,7 @@
 },
 {
     "name": "Bạc Liêu",
-    "description": "Dân số: 918.500 người. Diện tích: 2.667,88 km². D21(đầu):[105.37167657074127,9.596820577391215],(Cần thông tin từ D21- D18 - D23):",
+    "description": "Dân số: 918.500 người. Diện tích: 2.667,88 km².",
     "color": [0,191,255, 0.8],
     "geometry": {
         "type": "polygon",
