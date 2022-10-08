@@ -1,48 +1,5 @@
 [
     {
-        "name": " 10 cầu, thành phố, thị xã",
-        "description": "Miêu tả của cầu, thành phố, thị xã",
-        "geometry": {
-            "type": "point",
-            "longitude": 105.1366886,
-            "latitude": 9.7924769
-        }
-    },
-    {
-        "name": "5 tuyến đường quốc lộ",
-        "description": "Miêu tả của từng tuyến đường, quốc lộ",
-        "geometry": {
-            "type": "polyline",
-            "paths": [
-                [105.1185162999556, 9.783397163377243],
-                [105.1204899049011, 9.805070239024039],
-                [105.11461539653098, 9.819431193593724],
-                [105.11450287799383, 9.820167343729146],
-                [105.11449778178735, 9.820330014754193],
-                [105.11439381285268, 9.824235746740923],
-                [105.11426935861628, 9.824675521502066],
-                [105.11423073474097, 9.82486580830964],
-                [105.11437235550797, 9.825056095007753],
-                [105.11414929695684, 9.850160467607866],
-                [105.11407017180116, 9.850299207714466]
-            ]
-        }
-    },
-    {
-        "name": "13 tỉnh đồng bằng SCL",
-        "description": "Miêu tả 13 tỉnh đồng bằng SCL",
-        "color": [227, 139, 79, 0.8],
-        "geometry": {
-            "type": "polygon",
-            "rings": [
-                [105.15769914934587, 9.813260765275007],
-                [105.15740044037135, 9.817519907631288],
-                [105.17033915722588, 9.822149712820824],
-                [105.16879958865091, 9.813650324944721]
-            ]
-        }
-    },
-    {
         "name": "An Giang",
         "description": "An Giang là một tỉnh thuộc vùng đồng bằng sông Cửu Long, Việt Nam. An Giang là tỉnh thuộc Vùng kinh tế trọng điểm vùng đồng bằng sông Cửu Long. Là tỉnh có dân số đông nhất vùng đồng bằng sông Cửu Long và là tỉnh đứng thứ 8 cả nước về dân số. Một phần của An Giang nằm trong vùng tứ giác Long Xuyên. Diện tích: 3.537 km². Dân số: 2,413 triệu (2019)",
         "color": [58, 12, 163, 0.2],
@@ -1311,7 +1268,7 @@
     {
         "name": "Hậu Giang",
         "description": "Hậu Giang là một tỉnh thuộc vùng Đồng bằng sông Cửu Long, Việt Nam. Năm 2018, Hậu Giang là đơn vị hành chính Việt Nam đông thứ 54 về số dân, xếp thứ 52 về Tổng sản phẩm trên địa bàn, xếp thứ 48 về GRDP bình quân đầu người, đứng thứ 52 về tốc độ tăng trưởng GRDP. Diện tích: 1.622 km². Dân số: 974.126 (2019)",
-        "color": [58, 12, 150, 0.4],
+        "color": [37, 181, 130, 0.4],
         "geometry": {
             "type": "polygon",
             "rings": [
@@ -3191,9 +3148,9 @@
         }
     },
     {
-        "name": "Hậu Giang",
-        "description": "Hậu Giang là một tỉnh thuộc vùng Đồng bằng sông Cửu Long, Việt Nam. Năm 2018, Hậu Giang là đơn vị hành chính Việt Nam đông thứ 54 về số dân, xếp thứ 52 về Tổng sản phẩm trên địa bàn, xếp thứ 48 về GRDP bình quân đầu người, đứng thứ 52 về tốc độ tăng trưởng GRDP. Diện tích: 1.622 km². Dân số: 974.126 (2019)",
-        "color": [58, 12, 150, 0.4],
+        "name": "Sóc Trăng",
+        "description": "Sóc Trăng là một tỉnh ven biển, nằm trong vùng hạ lưu Nam sông Hậu thuộc đồng bằng sông Cửu Long, Việt Nam.\nNăm 2018, Sóc Trăng là đơn vị hành chính Việt Nam đông thứ 22 về số dân, xếp thứ 38 về Tổng sản phẩm trên địa bàn (GRDP), xếp thứ 51 về GRDP bình quân đầu người, đứng thứ 47 về tốc độ tăng trưởng GRDP. Với 1.315.900 người dân[6], GRDP đạt 49.346 tỉ Đồng (tương ứng với 2,1432 tỉ USD), GRDP bình quân đầu người đạt 37,5 triệu đồng (tương ứng với 1.628 USD), tốc độ tăng trưởng GRDP đạt 7,20%.",
+        "color": [55, 209, 132, 0.4],
         "geometry": {
             "type": "polygon",
             "rings": [
