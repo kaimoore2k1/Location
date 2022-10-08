@@ -4480,6 +4480,33 @@
         }
     },
     {
+        "name": "Cầu Mỹ Lợi",
+        "description": "Cầu Mỹ Lợi nằm trên tuyến đường Quốc lộ 50 nối Phước Đông, Cần Đước, Long An với Bình Đông, Gò Công, Tiền Giang. Cầu được khởi công vào ngày 25 tháng 1 năm 2014, đến ngày 2 tháng 9 năm 2015 thì hoàn thành. ",
+        "geometry": {
+            "type": "point",
+            "longitude": 106.63699368650633,
+            "latitude": 10.467902730414023
+        }
+    },
+    {
+        "name": "Cầu Vàm Cống",
+        "description": "Cầu Vàm Cống là cây cầu dây văng bắc qua sông Hậu, nối liền thành phố Cần Thơ và tỉnh Đồng Tháp của Việt Nam. Cầu Vàm Cống cách bến phà Vàm Cống khoảng 3 km về phía hạ lưu sông Hậu, và thay thế cụm phà này kể từ khi cầu đi vào hoạt động vào ngày 19 tháng 5 năm 2019",
+        "geometry": {
+            "type": "point",
+            "longitude":  105.50398351534004,
+            "latitude": 10.316819289245748
+        }
+    },
+    {
+        "name": "Cầu Cao Lãnh",
+        "description": "Cầu Cao Lãnh là cây cầu dây văng được xây dựng bắc qua sông Tiền, nối liền thành phố Cao Lãnh và huyện Lấp Vò của tỉnh Đồng Tháp, Việt Nam. Cầu Cao Lãnh cách bến phà Cao Lãnh khoảng 0,8 km về phía hạ lưu sông Tiền và cách cầu Mỹ Thuận 35 km về phía thượng lưu sông.",
+        "geometry": {
+            "type": "point",
+            "longitude": 105.65165524658242,
+            "latitude": 10.412373055027572
+        }
+    },
+    {
         "name": "Cầu Mỹ Thuận",
         "description": "Cầu Mỹ Thuận là cây cầu dây văng bắc qua sông Tiền, nối liền hai tỉnh Tiền Giang và Vĩnh Long, Việt Nam. Cầu nằm cách Thành phố Hồ Chí Minh 125 km về hướng Tây Nam, trên Quốc lộ 1, là trục giao thông chính của vùng đồng bằng sông Cửu Long. Cầu Mỹ Thuận là cầu dây văng và cầu bắc qua sông Mekong đầu tiên ở Việt Nam.",
         "geometry": {
