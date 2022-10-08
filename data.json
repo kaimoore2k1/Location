@@ -1,12 +1,4 @@
-[{
-        "name": " 10 cầu, thành phố, thị xã",
-        "description": "Miêu tả của cầu, thành phố, thị xã",
-        "geometry": {
-            "type": "point",
-            "longitude": 105.1366886,
-            "latitude": 9.7924769
-        }
-    },
+[
     {
         "name": "Quốc lộ 80",
         "description": "Quốc lộ 80 (tên cũ Tỉnh lộ 8) là con đường giao thông huyết mạch nối các tỉnh phía tây của Đồng bằng sông Cửu Long với phần còn lại của đồng bằng.\n Quốc lộ 80 có độ dài khoảng 215 km, chạy qua địa phận các tỉnh: Vĩnh Long, Đồng Tháp, An Giang, Cần Thơ, Kiên Giang.",
@@ -1948,20 +1940,6 @@
                 [105.72455734507854, 9.924532564904844],
                 [105.72501484898933, 9.925178014983782],
                 [105.72536138446348, 9.925714887169322]
-            ]
-        }
-    },
-    {
-        "name": "13 tỉnh đồng bằng SCL",
-        "description": "Miêu tả 13 tỉnh đồng bằng SCL",
-        "color": [227, 139, 79, 0.8],
-        "geometry": {
-            "type": "polygon",
-            "rings": [
-                [105.15769914934587, 9.813260765275007],
-                [105.15740044037135, 9.817519907631288],
-                [105.17033915722588, 9.822149712820824],
-                [105.16879958865091, 9.813650324944721]
             ]
         }
     }
